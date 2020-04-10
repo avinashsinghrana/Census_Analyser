@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202c0980-c0e1-40db-ba20-dea9e33dd2c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rana/census/bridgelabz/CSVdata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rana/census/bridgelabz/StateCensusAnalyser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rana/census/bridgelabz/StateCensusAnalyserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rana/census/bridgelabz/CensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rana/census/bridgelabz/CensusAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rana/census/bridgelabz/StateCensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rana/census/bridgelabz/StateCensusAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rana/census/bridgelabz/StateCensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rana/census/bridgelabz/StateCensusAnalyserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rana/census/bridgelabz/StateCensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rana/census/bridgelabz/StateCensusAnalyserTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="rana.census.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StateCensusAnalyser">
+  <component name="RunManager" selected="JUnit.StateCensusAnalyserTest.iterator">
     <configuration name="CensusAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rana.census.bridgelabz.CensusAnalyser" />
       <module name="census-project" />
@@ -89,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StateCensusAnalyserTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="census-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rana.census.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rana.census.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="rana.census.bridgelabz.StateCensusAnalyserTest" />
+      <option name="METHOD_NAME" value="iterator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StateCensusAnalyserTest.iterator" />
         <item itemvalue="Application.StateCensusAnalyser" />
         <item itemvalue="Application.CensusAnalyser" />
       </list>
@@ -110,26 +125,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1586491688967">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1586495759563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586491688967" />
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1586493435769">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586495759563" />
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1586496329072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586493435769" />
-    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1586493435769">
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586496329072" />
+    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1586496329072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586493435769" />
-    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1586493435769">
+    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586496329072" />
+    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1586496329072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586493435769" />
-    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1586493435769">
+    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586496329072" />
+    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1586496329072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586493435769" />
+    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586496329072" />
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586492373029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -138,5 +153,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="66" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586431956674" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1586495940443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586495940443" />
   </component>
 </project>
